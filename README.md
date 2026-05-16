@@ -60,6 +60,12 @@ Customers can easily:
 
 ---
 
+## 📍 Location (Google Maps)
+This website includes an embedded Google Map at the top of the location section.
+
+Customers can easily view the restaurant location and get directions directly from the website.
+
+
 ## 🌐 Live Demo
 👉  https://neelima-123997.github.io/FUTURE_FS_03/
 
