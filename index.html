@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neelima Spice Hub</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<!-- FLOAT BUTTONS (FIXED) -->
+<a href="tel:+918179068445" class="call">
+  <i class="fa-solid fa-phone"></i>
+</a>
+
+<a href="https://wa.me/918179068445" target="_blank" class="wa">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<!-- NAVBAR -->
+<header>
+  <nav class="navbar">
+    <h1>🍽 Neelima Spice Hub</h1>
+    <ul>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Delicious Food in Kakinada</h1>
+  <p>Fresh | Hygienic | Affordable</p>
+</section>
+
+<!-- MENU -->
+<section id="menu">
+  <h2>Our Menu</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd">
+      <h3>Burger</h3>
+      <p>₹199</p>
+      <button onclick="add('Burger')">Add</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591">
+      <h3>Pizza</h3>
+      <p>₹299</p>
+      <button onclick="add('Pizza')">Add</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7">
+      <h3>Paneer Butter Masala</h3>
+      <p>₹210</p>
+      <button onclick="add('Paneer Butter Masala')">Add</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg">
+      <h3>Chicken Biryani</h3>
+      <p>₹350</p>
+      <button onclick="add('Chicken Biryani')">Add</button>
+    </div>
+
+  </div>
+</section>
+
+<!-- CART -->
+<section class="cart">
+  <h2>Your Cart 🛒</h2>
+  <ul id="list"></ul>
+  <h3 id="total">Total: ₹0</h3>
+  <button onclick="order()">Place Order</button>
+</section>
+
+<h2 id="statusText">No Order Yet</h2>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>About Us</h2>
+
+  <div class="about-box">
+    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5">
+    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0">
+
+    <div>
+      <p>🍽 Neelima Spice Hub is a family restaurant in Kakinada.</p>
+      <p>👨‍🍳 Fresh ingredients with authentic taste.</p>
+      <p>⭐ Customer satisfaction is our priority.</p>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+  <h2>Gallery</h2>
+
+  <div class="gallery-grid">
+    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836">
+    <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c">
+    <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1">
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews">
+  <h2>Customer Reviews</h2>
+
+  <div class="review">⭐ Best food in Kakinada - Rahul</div>
+  <div class="review">⭐ Very tasty - Priya</div>
+  <div class="review">⭐ Fast service - Suresh</div>
+  <div class="review">⭐ Affordable prices - Anjali</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact Us</h2>
+
+  <p>📍 Kakinada, Andhra Pradesh</p>
+  <p>📧 palivelaneelima2007@gmail.com</p>
+
+  <iframe 
+  src="https://maps.google.com/maps?q=Kakinada&z=13&output=embed"
+  loading="lazy">
+</iframe>
+
+  <form onsubmit="sendMsg(event)">
+    <input type="text" placeholder="Your Name" required>
+    <input type="text" placeholder="Message" required>
+    <button>Send</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 Neelima Spice Hub</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
