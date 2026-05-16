@@ -28,14 +28,16 @@ The website is designed to feel like a real restaurant ordering system.
 ✔ Total bill calculation  
 ✔ Remove items from cart  
 ✔ Contact and location section  
-✔ Fully responsive (Mobile + Desktop)  
+✔ WhatsApp contact button  
+✔ Call button  
+✔ Fully responsive (Mobile + Desktop)
 
 ---
 
 ## 📁 Project Structure
 - index.html → main webpage  
 - style.css → design and layout  
-- script.js → functionality (cart system)  
+- script.js → functionality (cart system)
 
 ---
 
@@ -48,29 +50,42 @@ The website is designed to feel like a real restaurant ordering system.
 
 ---
 
+## 📞 Contact Feature
+This website includes WhatsApp and Call options.
+
+Customers can easily:
+- Send messages on WhatsApp  
+- Make direct phone calls  
+- Contact restaurant quickly through the website  
+
+---
+
 ## 🌐 Live Demo
-👉 https://your-live-link-here  
+👉 
 
 ---
 
 ## 📁 GitHub Repository
-👉 https://github.com/your-username/your-repo-name  
+👉 
 
 ---
 
 ## 📢 Short Pitch
-I built this website for a restaurant to help customers easily view the menu and place orders.
+I built this website for a restaurant to help customers easily view the menu, check prices, and place orders.
 
-It helps improve customer experience and gives the restaurant a better online presence.
+It also allows customers to directly contact the restaurant using WhatsApp or call button, making communication very easy.
+
+This improves customer experience and helps the restaurant get more orders.
 
 ---
 
 ## 📈 Benefits
 - Easy menu access for customers  
+- Faster communication using WhatsApp/call  
 - Better customer engagement  
-- Simple ordering system  
+- Simple online ordering system  
 - Improved online presence  
-- Professional restaurant look  
+- Professional restaurant website look  
 
 ---
 
@@ -80,4 +95,4 @@ Neelima
 ---
 
 ## 📊 Project Status
-✔ Completed
+✔ Completed Successfully
